@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* overflow: hidden; */
+    margin: 0;
+}
+
+.bg{
+    /* background: url(https://source.unsplash.com/random/?code,coder,programmer) no-repeat center center cover ; */
+    background-image: url(https://source.unsplash.com/random/?code,coder,programmer);
+    background-position-x: center ;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid red;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text{
+    font-size: 50px;
+    /* color:  */
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 100vw;
+    height: 100vh;
+}
